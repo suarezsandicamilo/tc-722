@@ -18,15 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tc722.tc722"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "8bfef4cf-3618-47e1-bd62-83dc744de494"
+        "projectId": "d396a72b-a173-40bf-a293-c5246ccaba13"
       }
-    }
+    },
+    "owner": "tc-722"
   }
 }
