@@ -7,6 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build": "eas build --platform android --profile development",
     "lint": "eslint src",
     "format": "eslint src --fix && prettier src --write"
   },
@@ -20,6 +21,7 @@
     "@babel/core": "^7.20.0",
     "@eslint/js": "^9.13.0",
     "@types/react": "~18.2.45",
+    "eas-cli": "^12.6.0",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
