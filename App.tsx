@@ -6,8 +6,8 @@ import { StyleSheet, Text, View } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      <StatusBar style='auto' />
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <StatusBar style="auto" />
+      <Text></Text>
     </View>
   );
 };

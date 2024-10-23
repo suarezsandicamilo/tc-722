@@ -12,7 +12,7 @@ export default [
   },
   {
     languageOptions: {
-      globals: globals.browser,
+      globals: globals.node,
     },
   },
   js.configs.recommended,
@@ -24,6 +24,7 @@ export default [
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      'react/react-in-jsx-scope': 'off',
     },
   },
 ];

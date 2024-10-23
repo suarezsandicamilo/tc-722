@@ -1,6 +1,6 @@
 //
 
-export default (api) => {
+module.exports = (api) => {
   api.cache(true);
 
   return {
